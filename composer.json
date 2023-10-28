@@ -1,11 +1,15 @@
 {
     "name": "my/illuminate-container-sandbox",
     "require": {
-        "illuminate/container": "^10.28"
+        "illuminate/container": "^10.28",
+        "illuminate/support": "^10.28"
     },
     "autoload": {
         "psr-4": {
-            "My\\IlluminateContainerSandbox\\": "src/"
+            "IlluminateContainerSandbox\\": "src/"
         }
+    },
+    "require-dev": {
+        "phuml/phuml": "^6.1"
     }
 }
